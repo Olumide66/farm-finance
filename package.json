@@ -1,0 +1,17 @@
+{
+  "name": "farm-finance",
+  "version": "1.0.0",
+  "description": "Farm Finance Management Application",
+  "main": "netlify/functions/streamlit.js",
+  "scripts": {
+    "build": "echo 'Build script executed'"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
