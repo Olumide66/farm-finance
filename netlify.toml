@@ -1,0 +1,12 @@
+[build]
+  command = "mkdir -p netlify/functions/streamlit && pip install -r requirements.txt -t netlify/functions/streamlit/lib"
+  functions = "netlify/functions"
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/streamlit"
+  status = 200
