@@ -1,6 +1,6 @@
 [build]
-  command = "mkdir -p netlify/functions/streamlit && pip install -r requirements.txt -t netlify/functions/streamlit/lib"
-  functions = "netlify/functions"
+  command = "mkdir -p netlify/functions/streamlit && pip install -r requirements.txt -t farm-finance/netlify/functions/streamlit/lib"
+  functions = "farm-finance/netlify/functions"
   publish = "."
 
 [functions]
